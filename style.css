@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+body {
+  background-color: #ffeedb;
+  font-family:  calibri;
+  color: #ffbd9b;
+  font-size: 15px;
+  line-height 5px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #0a1d37;
+  line-height:9px ;
+}
+
+h1 {
+  font-size: 30px;
+  color: #e4bad4;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  color: #ffbd9b;
+  text-decoration: none;
+}
+
+li a {
+  color: #47597e;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: hotpink;
+}
+
+img {
+  border-radius: 25px;
+}
+
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  box-shadow: 5px 10px #888888;
+  background-color: white;
+  padding: 20px;
+  border-radius:  5px;
+  margin: 5px;
+}
+
+.class-btn {
+  margin: 5px;
+  box-shadow: 5px 5px #dbe6fd;
+  border: solid;
+  border-width: thin;
+  padding:  5px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  border: solid;
+  border-width: thin;
+  border-color: #e4bad4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 65px;
+  margin-left: 65px;
+}
+
+.elements-inline {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#follow {
+  color: #e4bad4;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
